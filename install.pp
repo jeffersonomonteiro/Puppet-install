@@ -1,5 +1,5 @@
 include apt 
-apt::ppa {'ppa:webupd8team/sublime-text-3':}
+apt::ppa {'ppa:webupd8team/sublime-text-3 -y':}
 
 package {'sublime-text-installer':
 ensure => 'installed',
