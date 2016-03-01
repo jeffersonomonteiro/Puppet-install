@@ -2,7 +2,7 @@ include apt
 apt::ppa {'ppa:webupd8team/sublime-text-3 -y':}
 
 package {'sublime-text-installer':
-ensure => 'installed',
+ensure => 'present',
 }
 
 package {'git':
