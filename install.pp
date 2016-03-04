@@ -1,4 +1,4 @@
-{'apt-update':
+exec {'apt-update':
 command => 'apt-get update',
 path => '/bin:/usr/bin',
 timeout => 0
